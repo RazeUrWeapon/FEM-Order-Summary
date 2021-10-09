@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    backgorund-color: hsl(224, 23%, 55%);
+}
+
+body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color:hsl(225, 100%, 94%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: hsl(224,55%,19%);
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 23px;
+}
+
+a {
+    color: hsl(223, 47%, 23%);
+    font-weight: 500;
+    font-size: .85rem;
+}
+
+#container {
+    max-width: 450px;
+    margin: 101px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+#illustration {
+    max-height: 220px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 50px;
+}
+
+#summary {
+    padding: 0 77px 0px;
+    margin-bottom: 23px;
+}
+
+#plan {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "icon annual change"
+        "icon price change";
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin: 0 47px 23px;
+    padding: 20px 10px;
+    color:hsl(224, 23%, 55%);
+}
+
+#music_icon {
+    grid-area: icon;
+    margin: auto;
+}
+
+#annual {
+    grid-area: annual;
+    text-align: left;
+    font-weight: 900;
+    color: hsl(224,55%,19%);
+}
+
+#price {
+    grid-area: price;
+    text-align: left;
+    font-weight: 500;
+}
+
+#change_btn {
+    grid-area: change;
+    margin: auto;
+    color:hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.mainText {
+    color:hsl(224, 23%, 55%);
+}
+
+.attribution {
+    display: none;
+}
+
+.main_button {
+    background-color: hsl(244,75%,52%);
+    border-radius: 10px;
+    margin: 0 47px 23px;
+    padding: 15px 10px;
+    color:hsl(225, 100%, 98%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .95rem;
+}
+
+.shadow {
+    box-shadow: 0px 15px 15px 8px hsl(225, 100%, 94%);
+}
+
+.cancel_button {
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: .95rem;
+}
